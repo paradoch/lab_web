@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kirill Bury - CV</title>
+    <meta name="description" content="Curriculum Vitae of Kirill Bury">
 </head>
 <body style="font-family: Arial, sans-serif; margin: 0; padding: 0; display: flex; justify-content: center;">
     <div style="max-width: 800px; width: 100%; padding: 20px;">
@@ -25,10 +26,12 @@
         <main>
             <section id="contacts">
                 <h2 style="font-size: 1.5em; border-bottom: 2px solid #000;">Contacts</h2>
-                <ul style="list-style: none; padding: 0;">
-                    <li>Email: <a href="mailto:kirya.buryy.05@mail.ru" style="color: blue;">kirya.buryy.05@mail.ru</a></li>
-                    <li>Phone: <a href="tel:+375291896638" style="color: blue;">+375-29-189-6638</a></li>
-                </ul>
+                <address>
+                    <ul style="list-style: none; padding: 0;">
+                        <li>Email: <a href="mailto:kirya.buryy.05@mail.ru" style="color: blue;">kirya.buryy.05@mail.ru</a></li>
+                        <li>Phone: <a href="tel:+375291896638" style="color: blue;">+375-29-189-6638</a></li>
+                    </ul>
+                </address>
             </section>
             
             <section id="about" style="margin-top: 20px;">
@@ -69,22 +72,50 @@ Console.WriteLine("Hallo World!")
                 <h2 style="font-size: 1.5em; border-bottom: 2px solid #000;">Experience</h2>
                 <p style="margin: 0;">Project: CV</p>
                 <p style="margin: 0;">Description: Creating CV in HTML format.</p>
-                <p style="margin: 0;">Link to the project: <a href="#" style="color: blue;">https://github.com/paradoch/lab_web/tree/lab2</a></p>
+                <p style="margin: 0;">Link to the project: <a href="#https://github.com/paradoch/lab_web/tree/lab2" style="color: blue;">https://github.com/paradoch/lab_web/tree/lab2</a></p>
             </section>
             
             <section id="education" style="margin-top: 20px;">
                 <h2 style="font-size: 1.5em; border-bottom: 2px solid #000;">Education</h2>
                 <p style="margin: 0;">Belarusian-Russian University: August 2022 - haven't graduated yet</p>
+                <blockquote style="margin: 0; padding: 10px; background-color: #f4f4f4; border-left: 5px solid #ddd;">
+                    <p>"Education is the most powerful weapon which you can use to change the world." - Nelson Mandela</p>
+                </blockquote>
             </section>
             
             <section id="english" style="margin-top: 20px;">
                 <h2 style="font-size: 1.5em; border-bottom: 2px solid #000;">English Language</h2>
                 <p style="margin: 0;">Level: Elementary (A2)</p>
+                <table style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+                    <thead>
+                        <tr>
+                            <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Skill</th>
+                            <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Level</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Reading</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Intermediate</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Writing</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Elementary</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Speaking</td>
+                            <td style="border: 1px solid #ddd; padding: 8px;">Beginner</td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
             
             <section id="photo" style="margin-top: 20px;">
                 <h2 style="font-size: 1.5em; border-bottom: 2px solid #000;">Photo</h2>
-                <img src="my.jpg" alt="My Photo" title="Я" style="max-width: 100%; height: auto;">
+                <figure>
+                    <img src="my.jpg" alt="My Photo" title="Я" style="max-width: 100%; height: auto;">
+                    <figcaption>My Photo</figcaption>
+                </figure>
             </section>
         </main>
         <footer style="text-align: center; margin-top: 20px;">
