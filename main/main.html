@@ -24,9 +24,16 @@
                 <a href="#solutions" id="solutionss">Solutions</a>
                 <a href="#templates" id="templatest">Templates</a>
                 <a href="#library" id="tlibrar">Library</a>
+                <span id="usernameDisplay" style="display: none;"></span>
+                <button class="section-button" id="logout" style="display: none;">Log Out</button>
+                <a href="" id="admin">Admin</a>
+                <a href="" id="zakaz" style="display: none;">Order</a>
                 <button class="section-button" id="languageButton" onclick="toggleLanguage()"></button>
                 <button class="section-button" id="themeButton" onclick="toggleTheme()"></button>
             </nav>
+            <div id="userIcon" style="display: none;">
+                <img src="../images/marker.png" alt="User Icon" id="userIconImage" style="cursor: pointer;">
+              </div>
             </div>
         </div>
         <div class="right-header">
@@ -35,6 +42,14 @@
         </div>
     </header>
     <main>
+        <div id="userModal2" class="modal2" style="display: none;">
+            <div class="modal-content2">
+              <span class="close2">&times;</span>
+              <h2>User Information</h2>
+              <div id="userInfo2"></div>
+              <button id="resetSettings">Reset Settings</button>
+            </div>
+          </div>
         <section class="section1">
             <div class="text-section1">
                 <h2 id="thenew">The new way to manage external relationships</h2>
@@ -274,5 +289,7 @@
     <script src="../general/menu.js"></script>
     <script src="../general/translation.js"></script>
     <script src="../general/them.js"></script>
+    <script src="../general/transition.js"></script>
+    <script src="../register/register.js"></script>
 </body>
 </html>
