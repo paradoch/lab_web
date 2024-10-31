@@ -1,0 +1,58 @@
+[
+    {
+      "mail": "admin@gmail.com",
+      "password": "admin123",
+      "telephone": "+375291234567",
+      "birthdate": "1990-01-01",
+      "firstname": "Иван",
+      "secondname": "Петров",
+      "middlename": "Иванович",
+      "nickname": "admin",
+      "role": "admin"
+    },
+    {
+      "mail": "user1@gmail.com",
+      "password": "password1",
+      "telephone": "+375297654321",
+      "birthdate": "1995-05-10",
+      "firstname": "Иван",
+      "secondname": "Сидоров",
+      "middlename": "Петрович",
+      "nickname": "user1",
+      "role": "admin"
+    },
+    {
+      "mail": "user2@gmail.com",
+      "password": "password2",
+      "telephone": "+375293333333",
+      "birthdate": "1997-07-15",
+      "firstname": "Петр",
+      "secondname": "Иванов",
+      "middlename": "Сергеевич",
+      "nickname": "user2",
+      "role": "user"
+    },
+    {
+      "mail": "user3@gmail.com",
+      "password": "password3",
+      "telephone": "+375294444444",
+      "birthdate": "2000-03-20",
+      "firstname": "Сергей",
+      "secondname": "Петров",
+      "middlename": "Александрович",
+      "nickname": "user3",
+      "role": "user"
+    },
+    {
+      "mail": "user4@gmail.com",
+      "password": "password3",
+      "telephone": "+375294444444",
+      "birthdate": "2000-03-20",
+      "firstname": "Сергей",
+      "secondname": "Петров",
+      "middlename": "Александрович",
+      "nickname": "user4",
+      "role": "user"
+    }
+  ]
+  
