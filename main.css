@@ -18,6 +18,7 @@ header{
     align-items: center;
     gap: 180px;
     border-bottom: solid 1px #292c2e;
+    flex-wrap: wrap;
 }
 nav{
     display: flex;
@@ -67,6 +68,7 @@ main{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 .img-section1{
     content: url("../images/section1.png");
@@ -132,12 +134,15 @@ main{
     background-color: #4058FF;
     color: #ffffff;
     padding: 50px 50px;
+    flex-wrap: wrap;
 }
 .img-down-text-down-section2{
     content: url("../images/logosec2.png");
+    width: 100%;
 }
 .img-text-down-section{
     content: url("../images/section2.png");
+    width: 100%;
 }
 .text-down-section2{
     display: flex;
@@ -176,9 +181,11 @@ main{
     border-radius: 20px;
     border: solid 0px #081F32;
     padding: 50px 50px;
+    flex-wrap: wrap;
 }
 .img-section3{
     content: url("../images/section3.png");
+    width: 100%;
 }
 .text-section3 h2{
     font-size: 34px;
@@ -205,6 +212,7 @@ main{
     gap: 60px;
     width: 86%;
     padding-top: 30px;
+    flex-wrap: wrap;
 }
 .left-section4{
     display: flex;
@@ -267,6 +275,7 @@ main{
     padding: 50px 50px;
     width: 86%;
     color: #ffffff;
+    flex-wrap: wrap;
 }
 .text-block-section5 h3{
     font-size: 34px;
@@ -279,6 +288,7 @@ main{
 }
 .img-text-block-section5{
     content: url("../images/section5.png");
+    width: 100%;
 }
 
 .img-left-section6{
@@ -294,6 +304,7 @@ main{
     gap: 60px;
     width: 86%;
     padding-top: 30px;
+    flex-wrap: wrap;
 }
 .left-section6{
     display: flex;
@@ -341,6 +352,7 @@ main{
     border-radius: 20px;
     border: solid 0px #081F32;
     padding: 50px 50px;
+    flex-wrap: wrap;
 
 }
 .block1-section7, .block2-section7{
@@ -434,6 +446,7 @@ main{
     align-items: center;
     gap: 10px;
     width: 100%;
+    flex-wrap: wrap;
 }
 .img1{
     content: url("../images/img1.png");
@@ -522,4 +535,106 @@ footer{
 }
 #copyright20{
     color: #12172281;
+}
+@media (max-width: 900px) {
+    footer{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media (max-width: 768px) {
+    .burger-menu {
+        width: 30px;
+        height: 21px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        z-index: 1000; 
+      }
+      .burger-menu span {
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #333;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .header-block1 {
+        display: none;
+        position: fixed;
+        top: 50px;
+        left: 0;
+        width: 250px;
+        height: auto;
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+        z-index: 999; 
+      }
+      
+      .header-block1.open {
+        display: block;
+      }
+      
+      .header-nav {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        background-color: #fff;
+      }
+      
+      .header-nav a,
+      .header-nav button {
+        margin: 10px 0;
+        text-decoration: none;
+        color: #333;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        text-align: left;
+      }
+      
+      .burger-menu.open span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+      }
+      
+      .burger-menu.open span:nth-child(2) {
+        opacity: 0;
+      }
+      
+      .burger-menu.open span:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+      }
+      .text-section1{
+        width: 50%;
+      }
+      .text-section3{
+        width: 80%;
+      }
+      .section7{
+        flex-direction: column;
+      }
+      .blocki-section8{
+        flex-direction: row;
+      }
+      .block-section8{
+        flex-direction: column;
+      }
+      .img-text-down-section{
+        width: 90%;
+      }
+      .img-section3{
+        width: 90%;
+      }
+      .img-text-block-section5{
+        width: 90%;
+      }
+      footer{
+        width: 90%;
+        padding-left: 0px;
+        padding-right: 0px;
+      }
 }
