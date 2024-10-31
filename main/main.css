@@ -68,7 +68,6 @@ main{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    flex-wrap: wrap;
 }
 .img-section1{
     content: url("../images/section1.png");
@@ -134,7 +133,6 @@ main{
     background-color: #4058FF;
     color: #ffffff;
     padding: 50px 50px;
-    flex-wrap: wrap;
 }
 .img-down-text-down-section2{
     content: url("../images/logosec2.png");
@@ -181,7 +179,6 @@ main{
     border-radius: 20px;
     border: solid 0px #081F32;
     padding: 50px 50px;
-    flex-wrap: wrap;
 }
 .img-section3{
     content: url("../images/section3.png");
@@ -212,7 +209,6 @@ main{
     gap: 60px;
     width: 86%;
     padding-top: 30px;
-    flex-wrap: wrap;
 }
 .left-section4{
     display: flex;
@@ -275,7 +271,6 @@ main{
     padding: 50px 50px;
     width: 86%;
     color: #ffffff;
-    flex-wrap: wrap;
 }
 .text-block-section5 h3{
     font-size: 34px;
@@ -304,7 +299,6 @@ main{
     gap: 60px;
     width: 86%;
     padding-top: 30px;
-    flex-wrap: wrap;
 }
 .left-section6{
     display: flex;
@@ -352,7 +346,6 @@ main{
     border-radius: 20px;
     border: solid 0px #081F32;
     padding: 50px 50px;
-    flex-wrap: wrap;
 
 }
 .block1-section7, .block2-section7{
@@ -536,6 +529,29 @@ footer{
 #copyright20{
     color: #12172281;
 }
+@media (max-width: 1400px) {
+    .section1{
+        flex-wrap: wrap;
+    }
+    .down-section2{
+        flex-wrap: wrap;
+    }
+    .section3{
+        flex-wrap: wrap;
+    }
+    .section4{
+        flex-wrap: wrap;
+    }
+    .block-section5{
+        flex-wrap: wrap;
+    }
+    .section6{
+        flex-wrap: wrap;
+    }
+    .section7{
+        flex-wrap: wrap;
+    }
+}
 @media (max-width: 900px) {
     footer{
         padding-left: 0px;
@@ -608,6 +624,26 @@ footer{
       .burger-menu.open span:nth-child(3) {
         transform: rotate(-45deg) translate(5px, -5px);
       }
+      .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 998;
+        display: none;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .overlay.show {
+        display: block;
+        opacity: 1;
+    }
+
+    body.no-scroll {
+        overflow: hidden;
+    }
       .text-section1{
         width: 50%;
       }
