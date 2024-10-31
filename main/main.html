@@ -218,6 +218,16 @@
             <h2>Get started with Dock</h2>
             <button>Get Started</button>
         </section>
+        <section class="section10">
+            <div class="audi">
+                <audio id="audio" src="../general/MGMT.mp3"></audio>
+                <button id="playPause" class="section-button">Play</button>
+                <button id="nextSong" class="section-button">Next Song</button>
+                <div class="imgaudi">
+                    <img id="image" src="../images/images.jpg" alt="Image">
+                </div>
+            </div>
+        </section>
         <div id="mapModal" class="modal">
             <div class="modal-content">
               <span class="close">&times;</span>
@@ -231,10 +241,15 @@
             <p id="copyright20">Copyright © 2021 Dock Labs, Inc. All rights reserved.</p>
         </div>
         <div class="block-footer">
-            <p>Legal</p>
-            <p>Terms of Service</p>
-            <p>Privacy Policy</p>
-            <p>Privacy Request</p>
+            <button id="toggleMenuBtn" class="section-button">Menu</button>
+            <nav id="menu" class="menu">
+                <ul>
+                    <li><a href="#">Legal</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Privacy Request</a></li>
+                </ul>
+            </nav>
         </div>
         <div class="block-footer">
             <p>Support</p>
@@ -253,5 +268,7 @@
     <script src="../general/map.js"></script>
     <script src="../general/slider.js"></script>
     <script src="../general/scroll.js"></script>
+    <script src="../general/audio.js"></script>
+    <script src="../general/menu.js"></script>
 </body>
 </html>
