@@ -9,6 +9,49 @@ body{
 body p, h1, h2, b, h3{
     margin: 0;
 }
+body.dark{
+    background-color: #000000bb; 
+    color: #fff;
+}
+.dark .section9{
+    background-color: #4058ff45;
+}
+.dark .section7{
+    background-color: #4058ff45;
+}
+.dark .image-section7.active{
+    background-color: #4058ff45;
+}
+.dark .left-section6{
+    background-color: #4058ff45;
+}
+.dark .right-section6{
+    background-color: #4058ff45;
+}
+.dark .left-section4{
+    background-color: #4058ff45;
+}
+.dark .right-section4{
+    background-color: #4058ff45;
+}
+.dark .section3{
+    background-color: #4058ff45;
+}
+.dark .down-section2{
+    background-color: #4058ff45;
+}
+.dark #login, #cresha, #persospa, #stusth, #crbrspwi, #cucoonwg, #duwofr, #nogiviin{
+    color: #fff;
+}
+.dark #copyright20{
+    color: #fff;
+}
+.dark .menu ul>li>a{
+    color: #fff;
+}
+.dark .header-nav a{
+    color: #fff;
+}
 header{
     padding-top: 20px;
     padding-bottom: 20px;
