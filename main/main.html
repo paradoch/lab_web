@@ -6,6 +6,7 @@
     <title>Lab3</title>
     <link rel="stylesheet" href="main.css">
     <link rel="icon" type="image/png" href="../images/imgblock2.png">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 </head>
 <body>
     <header>
@@ -170,6 +171,12 @@
             <h2>Get started with Dock</h2>
             <button>Get Started</button>
         </section>
+        <div id="mapModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div id="map"></div>
+            </div>
+          </div>
     </main>
     <footer>
         <div class="block-footer">
@@ -191,9 +198,11 @@
             <p>General</p>
             <p>Request Invite</p>
             <p>Twitter</p>
+            <a id="openkart">Map</a>
         </div>
     </footer>
     <script src="../general/burger.js"></script>
     <script src="../general/smoothscroll.js"></script>
+    <script src="../general/map.js"></script>
 </body>
 </html>
