@@ -692,3 +692,8 @@ footer{
         flex-direction: column;
     }
 }
+@media (max-width: 700px) {
+    .section9{
+        display: none;
+    }
+}
